@@ -1,13 +1,13 @@
 # 🏠 Housing Price Prediction
 
-## 📌 Project Overview
+##  Project Overview
 
 This project aims to predict house prices using regression models on the Ames Housing dataset.
 The workflow includes data preprocessing, feature engineering, model training, and evaluation.
 
 ---
 
-## 📊 Dataset
+##  Dataset
 
 * Source: Ames Housing Dataset
 * Samples: 1460 houses
@@ -16,7 +16,7 @@ The workflow includes data preprocessing, feature engineering, model training, a
 
 ---
 
-## ⚙️ Preprocessing Steps
+##  Preprocessing Steps
 
 * Log transformation applied to `SalePrice` to reduce skewness
 * Missing values handled:
@@ -32,7 +32,7 @@ The workflow includes data preprocessing, feature engineering, model training, a
 
 ---
 
-## 🤖 Models Used
+## Models Used
 
 * Linear Regression
 * Ridge Regression (L2 Regularization)
@@ -41,7 +41,7 @@ The workflow includes data preprocessing, feature engineering, model training, a
 
 ---
 
-## 📈 Model Performance
+##  Model Performance
 
 | Model      | Train R² | Test R² | Train RMSE | Test RMSE |
 | ---------- | -------- | ------- | ---------- | --------- |
@@ -52,7 +52,7 @@ The workflow includes data preprocessing, feature engineering, model training, a
 
 ---
 
-## 🔍 Key Insights
+##  Key Insights
 
 * **Lasso Regression performed best on test data**
 
@@ -73,7 +73,7 @@ The workflow includes data preprocessing, feature engineering, model training, a
 
 ---
 
-## ⚠️ Overfitting Analysis
+##  Overfitting Analysis
 
 | Model      | Observation         |
 | ---------- | ------------------- |
@@ -84,7 +84,7 @@ The workflow includes data preprocessing, feature engineering, model training, a
 
 ---
 
-## 🧠 Conclusion
+##  Conclusion
 
 * Regularization is essential due to:
 
@@ -97,7 +97,7 @@ The workflow includes data preprocessing, feature engineering, model training, a
 
 ---
 
-## 🚀 Future Improvements
+##  Future Improvements
 
 * Feature engineering (TotalSF, HouseAge)
 * Hyperparameter tuning (GridSearchCV)
@@ -115,7 +115,7 @@ The workflow includes data preprocessing, feature engineering, model training, a
 
 ---
 
-## 📂 Project Structure
+##  Project Structure
 
 ```
 housing-price-prediction/
@@ -128,7 +128,7 @@ housing-price-prediction/
 
 ---
 
-## 📎 How to Run
+##  How to Run
 
 ```bash
 pip install -r requirements.txt
@@ -143,7 +143,7 @@ Run notebooks in order:
 
 ---
 
-## ✅ Final Result
+##  Final Result
 
 ```text
 Best Model → Lasso Regression
