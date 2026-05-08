@@ -106,7 +106,7 @@ The workflow includes data preprocessing, feature engineering, model training, a
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 * Python
 * Pandas, NumPy
